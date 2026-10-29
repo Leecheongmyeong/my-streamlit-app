@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title("나의 첫 번째 Streamlit 앱")
+st.title("이청명의 데이터 시각화 앱")
 
 # ── 사이드바 ──────────────────────────────────
 st.sidebar.title("설정")
