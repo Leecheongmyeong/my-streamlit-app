@@ -15,7 +15,7 @@ chart_type = st.sidebar.radio(
 n = st.sidebar.slider("데이터 개수", min_value=10, max_value=100, value=30)
 
 # ── 메인 화면 ─────────────────────────────────
-st.write(f"차트 유형: **{chart_type}** | 데이터 개수: **{n}개**")
+st.write("여기에 앱 설명을 적어보세요.")
 
 data = pd.DataFrame(
     np.random.randn(n, 3),
